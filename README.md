@@ -1,5 +1,5 @@
 <h1>Projeto Realizado na semana MAPA DEV WEEK</h1>
-<hr>
+
 <p>Criamos uma pokedex com os principais pokemons vistos no desenho/anime, com as boas práticas e semânticas do html, css e javascript, intuito do projeto foi de práticar a estilização da página, responsividade com media query e exercitar javascript com os elementos.</p> <br>
 
 <h2>Estrutura do projeto:</h2>
