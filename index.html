@@ -19,7 +19,7 @@
     <main>
         <div class="pokedex"> <!--Inicio da pokedex-->
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon aberto tipo-eletrico"> <!--Inicio do card pikachu-->
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu"> <!--Inicio do card pikachu-->
                     <div class="cartao-topo"> <!--Parte de cima do card -->
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -58,7 +58,7 @@
 
                 </div> <!--Final do card pikachu-->
 
-                <div class="cartao-pokemon"> <!--Inicio do card bulbasaur-->
+                <div class="cartao-pokemon tipo-planta" id="cartao-bulbasaur"> <!--Inicio do card bulbasaur-->
                     <div class="cartao-topo"> <!--Parte de cima do card -->
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
@@ -97,7 +97,7 @@
 
                 </div> <!--Final do card bulbasaur-->
 
-                <div class="cartao-pokemon"> <!--Inicio do card Charmander-->
+                <div class="cartao-pokemon  tipo-fogo" id="cartao-charmander"> <!--Inicio do card Charmander-->
                     <div class="cartao-topo"> <!--Parte de cima do card -->
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
@@ -136,7 +136,7 @@
                     
                 </div> <!--Final do card Charmander-->
 
-                <div class="cartao-pokemon"> <!--Inicio do card Gyarados-->
+                <div class="cartao-pokemon  tipo-agua" id="cartao-gyarados"> <!--Inicio do card Gyarados-->
                     <div class="cartao-topo"> <!--Parte de cima do card -->
                         <div class="detalhes">
                             <h2 class="nome">Gyarados</h2>
@@ -175,7 +175,7 @@
 
                 </div> <!--Final do card Gyarados-->
 
-                <div class="cartao-pokemon"> <!--Inicio do card Gengar-->
+                <div class="cartao-pokemon  tipo-trevas" id="cartao-gengar"> <!--Inicio do card Gengar-->
                     <div class="cartao-topo"> <!--Parte de cima do card -->
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
@@ -214,7 +214,7 @@
 
                 </div> <!--Final do card Gengar-->
 
-                <div class="cartao-pokemon"> <!--Inicio do card Dragonite-->
+                <div class="cartao-pokemon  tipo-dragao" id="cartao-dragonite"> <!--Inicio do card Dragonite-->
                     <div class="cartao-topo"> <!--Parte de cima do card -->
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
@@ -256,32 +256,32 @@
 
             <nav class="listagem"> <!--Inicio da listagem de pokemons-->
                 <ul>
-                    <li class="pokemon ativo">
+                    <li class="pokemon ativo" id="pikachu">
                         <img src="assets/img/cabeca-pikachu.png" alt="cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="bulbasaur">
                         <img src="assets/img/cabeca-bulbasaur.png" alt="cabeça do Bulbasaur">
                         <span>Bulbasaur</span>
                     </li>   
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="assets/img/cabeca-charmander.png" alt="cabeça do Charmander">
                         <span>Charmander</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="gyarados">
                         <img src="assets/img/cabeca-gyarados.png" alt="cabeça do Gyarados">
                         <span>Gyarados</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="gengar">
                         <img src="assets/img/cabeca-gengar.png" alt="cabeça do Gengar">
                         <span>Gengar</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="dragonite">
                         <img src="assets/img/cabeca-dragonite.png" alt="cabeça do Dragonite">
                         <span>Dragonite</span>
                     </li>
@@ -290,5 +290,7 @@
             
         </div> <!-- Final da pokedex-->
     </main>
+
+    <script src="assets/js/index.js"></script> <!--Link do script da página-->
 </body>
 </html>
